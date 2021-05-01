@@ -1,0 +1,39 @@
+{
+  "name": "nodebb-oauth-server",
+  "description": "OAuth server based on nodebb users",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/nodebb-oauth-server",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/nodebb-oauth-server",
+  "bugs": {
+    "url": "https://github.com/seanc/nodebb-oauth-server/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "server",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "nodebb",
+    "express",
+    "oauth"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-oauth-server": "oauthjs/express-oauth-server",
+    "minimist": "^1.2.0",
+    "mongous": "^0.2.7",
+    "request": "^2.79.0"
+  }
+}
